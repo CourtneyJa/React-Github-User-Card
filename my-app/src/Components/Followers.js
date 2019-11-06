@@ -21,7 +21,7 @@ class Followers extends React.Component {
 
   render() {
     return (
-      <div className="user-card">
+      <div className="follower-card">
         {this.state.followers.map(follower => (
           <FollowerCard
             key={follower.id}
